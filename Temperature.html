@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature-Convertor</title>
+
+    <script type="text/javascript" src="temperature.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="mobile-title">
+        <i id="currentTime"></i>
+        <div class="symbol">
+          <i class="fa fa-wifi" style="font-size: 14px"></i>
+          <img
+            alt="Mobile-Network-Image"
+            src="img/mobile-network.png"
+            style="background-color: transparent; max-width: 14px"
+          />
+          <i style="font-size: 14px" class="fa">&#xf240;</i>
+        </div>
+      </div>
+      <h4 class="temperature-heading">Temperature Convertor</h4>
+      <div class="temperature-convertor-function">
+        <div class="value">
+          Degrees
+          <br />
+          <input
+            id="valNum"
+            type="number"
+            name="num"
+            value=""
+            placeholder="Celcius"
+          />
+        </div>
+        <div class="type">
+          Type<br />
+          <select name="temperature-type" id="temperature-type">
+            <option id="farenheit">Farenheit</option>
+            <option id="celcius">Celcius</option>
+            <option id="kelvin">Kelvin</option>
+          </select>
+        </div>
+      </div>
+      <div class="result">
+        Result<br />
+        <p value="" id="value_at_result" class="result_value"></p>
+      </div>
+      <div class="convert-button">
+        <button class="conversion" onclick="tempconvert()" id="convert">
+          Convert
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
