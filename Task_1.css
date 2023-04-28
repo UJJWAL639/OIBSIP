@@ -1,0 +1,545 @@
+body {
+  /* font-weight: bold; */
+  font-feature-settings: "liga";
+  font-family: FS Kim, Georgia, serif;
+  fill: #001d2f;
+  border-color: #001d2f;
+  color: #001d2f;
+  position: relative;
+}
+
+/********************************************
+ CSS For Hero Image Content
+ ********************************************/
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(https://ftr.imgix.net/FQBOc9Uh5e22pHikmfCJR/3ce3022343c7ad918545a6a2e01f36b5/homepage-pingzhu-hero-bg-opt-v2.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1920&s=ae7331908c13b70917d2f5b72adea99b);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.vpn-logo {
+  align-self: center;
+  background: url(https://www.expressvpn.com/frtr/assets/images/edsv2/logo/expressvpn-logo-red.svg)
+    50% / contain no-repeat;
+  height: 3.5rem;
+  margin-right: 1.5rem;
+  margin-left: 2rem;
+  width: 17.5rem;
+}
+
+.dropbtn {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons/globe.svg),
+    url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons/chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: 0, 100%;
+  background-size: 2.4rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  padding-left: 2.9rem;
+  padding-right: 2.6rem;
+  margin-right: 10rem;
+}
+
+.dropbtn:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons/globe.svg),
+    url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons/chevron-up.svg);
+  color: black;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(59, 58, 58);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.picture-content {
+  display: flex;
+  flex-direction: column;
+}
+h1.jumbo {
+  font-size: 9.8rem;
+  line-height: 1.02;
+  display: block;
+  font-weight: 550;
+}
+
+h4.sub-heading {
+  font-size: 2.4rem;
+  display: block;
+  line-height: 1.33;
+  margin-bottom: 6rem;
+  font-weight: 400;
+}
+
+.button-group a.btn-primary-with-arrow {
+  font-weight: 600;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 1.25;
+  padding: 2rem 4rem;
+  border: 0.2rem solid #0f866c;
+  border-radius: 5rem;
+  background-color: #0f866c;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary-with-arrow:after {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 1.7rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  vertical-align: text-bottom;
+  width: 1.7rem;
+}
+
+a.btn-primary-with-arrow:hover {
+  background-color: #d4e300;
+  border-color: #d4e300;
+  color: black;
+}
+
+a.btn-primary-with-arrow:hover:after {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-midnight/arrow.svg);
+}
+
+.footnote {
+  fill: #001d2f;
+  color: #001d2f;
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.girl-boy {
+  margin-top: 2rem;
+  height: 260px;
+  width: 572px;
+}
+
+/********************************************
+ CSS For Description_1_under_hero_image
+ ********************************************/
+
+.block_group_under_hero_image {
+  margin-bottom: 8%;
+}
+.block-group {
+  background-color: #fff;
+  padding-bottom: 6rem;
+  padding-top: 10rem;
+  display: block;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 40px;
+  justify-content: flex-start;
+  position: static;
+}
+
+.img-block {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-bottom: 5rem;
+  max-width: 47rem;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img_detail {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+  padding-left: 20%;
+  padding-right: 60px;
+}
+h2 {
+  padding-top: 3rem;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 4.06rem;
+  line-height: 1.09;
+  font-weight: 800;
+}
+p.detail {
+  font-size: 1.6rem;
+  max-width: 85%;
+  padding-bottom: 10%;
+  margin-right: 10px;
+}
+
+a.btn-primary-without-arrow {
+  font-weight: 600;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 1.25;
+  padding: 2rem 4rem;
+  border: 0.2rem solid #0f866c;
+  border-radius: 5rem;
+  background-color: #0f866c;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+a.btn-primary-without-arrow:hover {
+  background-color: #d4e300;
+  border-color: #d4e300;
+  color: black;
+}
+
+.row_right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 20px;
+  justify-content: flex-end;
+  position: static;
+}
+.h2_right {
+  padding-top: 3rem;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 4.06rem;
+  line-height: 1.09;
+  font-weight: 800;
+  width: 340px;
+}
+
+.img_detail_right {
+  flex: 0 0 42.3333333333%;
+  margin-left: 8.3333333333%;
+  max-width: 42.3333333333%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+p.detail_right {
+  flex-grow: 50%;
+  font-size: 1.6rem;
+  padding-bottom: 10%;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.img-block-right {
+  padding-right: 5%;
+  margin-right: 20%;
+  margin-bottom: 5rem;
+  display: block;
+  width: 55%;
+  height: auto;
+  margin-left: 15%;
+}
+
+p.device {
+  padding-bottom: 10px;
+}
+
+.linked-images-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  margin-block-end: 1rem;
+  max-width: 32rem;
+  margin-bottom: 25px;
+}
+
+a.link {
+  background-image: linear-gradient(#0f866c, #0f866c),
+    linear-gradient(transparent, transparent), linear-gradient(#0f866c, #0f866c);
+  background-position: 100% 100%, 0 100%, 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px, 0 2px, 0 3px;
+  padding-bottom: 0.3rem;
+  border: none;
+
+  color: #0f866c;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.link:hover {
+  background-image: linear-gradient(#d4e300, #d4e300),
+    linear-gradient(transparent, transparent), linear-gradient(#d4e300, #d4e300);
+  color: #001d2f;
+  background-position: 100% 100%, 0 100%, 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px, 0 2px, 0 2px;
+  border: none;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.txt-center {
+  text-align: center;
+  padding-left: 50%;
+}
+
+.device_links {
+  margin-bottom: 10%;
+}
+
+/********************************************
+ CSS For Three_Rows_Column
+ ********************************************/
+.container-1 {
+  max-width: 100%;
+  margin-left: 5%;
+}
+
+.row_details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column_details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 33.3333333333%;
+  flex-grow: 1;
+  max-width: 75.3333333333%;
+}
+
+.feature-image {
+  padding-left: 4rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 1.25;
+}
+.feature-heading {
+  padding-left: 4rem;
+  width: 80%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+.feature-text {
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+  width: 280px;
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.image-in-feature {
+  width: 330px;
+  height: 170px;
+}
+
+.three-rows-column-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 4%;
+  margin-left: 10%;
+}
+
+.details_map {
+  background-color: #dae8e7;
+  padding: 1rem 0;
+  margin-bottom: 5%;
+}
+
+.map_link {
+  margin-left: 10%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.map_img {
+  margin-left: 22%;
+  height: 60%;
+  width: 60%;
+}
+
+.txt-center {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-right: 10%;
+}
+
+.footer {
+  background-color: #001d2f;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  color: #ccd2d5;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.16);
+  background-repeat: no-repeat;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-height: 10rem;
+  justify-content: space-between;
+}
+
+.caption {
+  margin-right: 50%;
+  margin-bottom: 0;
+}
+
+.footer {
+  border: none;
+  color: #fff;
+  color: #ccd2d5;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  text-decoration: none;
+}
+.footer-bottom-social {
+  flex-direction: row;
+  display: flex;
+  justify-content: right;
+}
+
+.footer-icon-youtube {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/youtube.svg);
+  background-position: 50%;
+  background-size: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-youtube:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-neon/youtube.svg);
+}
+
+.footer-icon-linkedin {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/linkedin.svg);
+  background-position: 50%;
+  background-size: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-linkedin:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-neon/linkedin.svg);
+}
+
+.footer-icon-twitter {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/twitter.svg);
+  background-position: 50%;
+  background-size: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-twitter:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-neon/twitter.svg);
+}
+
+.footer-icon-facebook {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/facebook.svg);
+  background-position: 50%;
+  background-size: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-facebook:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-neon/facebook.svg);
+}
+
+.footer-icon-instagram {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-white/instagram.svg);
+  background-position: 50%;
+  background-size: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-instagram:hover {
+  background-image: url(https://www.expressvpn.com/frtr/assets/images/edsv2/icons-neon/instagram.svg);
+}
